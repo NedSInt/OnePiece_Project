@@ -1,104 +1,113 @@
+@font-face {
+  font-family: go3v2;
+  src: url(/assets/fonts/go3v2.ttf);
+}
+@font-face {
+  font-family: AftikaBold;
+  src: url(/assets/fonts/FontsFree-Net-AftikaBold.ttf);
+}
 body{
-    margin: 0;
-    padding: 45px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+  margin: 0;
+  padding: 45px;
+  padding-bottom: 20px;
+  font-family: AftikaBold;
+  color: white;
 
 }
 main{
-    background-color: rgba(186,139,76,255);
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+  background-color: rgba(17,17,17,255);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
 }
 header{
-    width: 100%;
-    height: 200px;
-    display: flex;  
+  width: 100%;
+  height: 200px;
+  display: flex;  
 
 }
 header nav{
-    padding-top: 20px;
-    padding-left: 30px;
-    width: 30%;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: bold;
-    position: relative;
-    left: 28px;
+  padding-top: 20px;
+  padding-left: 30px;
+  width: 30%;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: relative;
+  left: 28px;
 }
 header ul{
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 header li{
-    padding-right: 150px;
+  padding-right: 110px;
 }
 header ul li:hover{
-    color: brown;
+  color: #67293c;
 
 }
 .luffy img{
-    max-width: 100%;
-    max-height: 500px;
-    position: relative;
-    left: 300px;
-    bottom: 50px;
+  max-width: 100%;
+  max-height: 560px;
+  position: relative;
+  left: 300px;
+  bottom: 50px;
 }
 article{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 300px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
 }
 .conteudo {
-    width: 50%;
-    text-align : left;
-    padding-left: 100px;
+  width: 50%;
+  text-align : left;
+  padding-left: 100px;
 }
 .conteudo h1{
-    margin: 0;
-    font-size: 36px;
-    text-transform: uppercase;
+  margin: 0;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: go3v2;
 }
 .conteudo h3{
-    color: darkgrey;
+  color: #757575;
+  margin-bottom: 0;
 
 }
 .conteudo p{
-    width: 400px;
-    
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 350px;
+  margin-top: 5px;
+  
 }
 .conteudo button{
-  box-shadow: 0px 0px 5px 0px #880d19;
-	background-color:#880d19;
-	border-radius:28px;
-	border:1px solid #880d19;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
+box-shadow: 0px 0px 5px 0px #38adf8;
+background-color:#38adf8;
+border-radius:28px;
+border:1px solid #38adf8;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+text-transform: uppercase;
+font-size: 14px;
+padding:16px 31px;
 }
 .conteudo button:hover {
-	background-color: #880d19;
+background-color: #38adf8;
 }
 .conteudo button:active {
-	position:relative;
-	top:1px;
+position:relative;
+top:1px;
 }
 
 section ul{
-    width: 50%;
-    list-style: none;
-    justify-content: end;
+  width: 50%;
+  list-style: none;
+  justify-content: end;
+  text-transform: uppercase;
 }
 section ul li{
-    padding-bottom: 40px;
-}
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  padding-bottom: 40px;
 }
 
 
