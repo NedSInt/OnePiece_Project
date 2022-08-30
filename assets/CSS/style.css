@@ -9,7 +9,6 @@
 body{
   margin: 0;
   padding: 45px;
-  padding-bottom: 20px;
   font-family: AftikaBold;
   color: white;
 
@@ -42,6 +41,7 @@ header li{
 }
 header ul li:hover{
   color: #38adf8;
+  cursor: pointer;
 
 }
 .luffy img{

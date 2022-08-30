@@ -41,7 +41,8 @@ header li{
   padding-right: 110px;
 }
 header ul li:hover{
-  color: #67293c;
+  color: #38adf8;
+  cursor: pointer;
 
 }
 .luffy img{
