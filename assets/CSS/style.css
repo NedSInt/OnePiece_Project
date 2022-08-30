@@ -41,7 +41,7 @@ header li{
   padding-right: 110px;
 }
 header ul li:hover{
-  color: #67293c;
+  color: #38adf8;
 
 }
 .luffy img{
@@ -49,11 +49,11 @@ header ul li:hover{
   max-height: 560px;
   position: relative;
   left: 300px;
-  bottom: 50px;
+  bottom: 40px;
 }
 .logo img{
   position: relative;
-  left: 480px;
+  left: 420px;
   bottom: 12px;
   max-width: 100px;
   max-height: 100px;
@@ -108,14 +108,22 @@ position:relative;
 top:1px;
 }
 
-section ul{
+.type ul{
   width: 50%;
   list-style: none;
-  justify-content: end;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
   text-transform: uppercase;
 }
-section ul li{
+.type ul li{
   padding-bottom: 40px;
+}
+.type ul li:hover{
+  color: #38adf8;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
 }
 
 

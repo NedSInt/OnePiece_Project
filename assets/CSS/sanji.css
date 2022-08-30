@@ -108,14 +108,20 @@
   top:1px;
   }
   
-  section ul{
+  .type ul{
     width: 50%;
     list-style: none;
     justify-content: end;
     text-transform: uppercase;
   }
-  section ul li{
+  .type ul li{
     padding-bottom: 40px;
+  }
+  .type ul li:hover{
+    color: #38adf8;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
   }
   
   
