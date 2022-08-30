@@ -51,6 +51,13 @@ header ul li:hover{
   left: 300px;
   bottom: 50px;
 }
+.logo img{
+  position: relative;
+  left: 480px;
+  bottom: 12px;
+  max-width: 100px;
+  max-height: 100px;
+}
 article{
   display: flex;
   justify-content: space-between;
@@ -83,7 +90,7 @@ article{
 .conteudo button{
 box-shadow: 0px 0px 5px 0px #38adf8;
 background-color:#38adf8;
-border-radius:28px;
+border-radius:18px;
 border:1px solid #38adf8;
 display:inline-block;
 cursor:pointer;
@@ -91,6 +98,7 @@ color:#ffffff;
 text-transform: uppercase;
 font-size: 14px;
 padding:16px 31px;
+margin-top: 15px;
 }
 .conteudo button:hover {
 background-color: #38adf8;
@@ -131,11 +139,11 @@ section ul li{
   left: 0;
   right: auto;
   bottom: 0;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 250px;
   width: 40px;
   color: #fff;
-  transition: all 50ms ease-in-out;
+  transition: all 350ms ease-in-out;
   background: linear-gradient(to left, transparent 0%, black 200%);
   opacity: 0.2;
   cursor: pointer;

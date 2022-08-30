@@ -1,0 +1,198 @@
+@font-face {
+    font-family: go3v2;
+    src: url(/assets/fonts/go3v2.ttf);
+  }
+  @font-face {
+    font-family: AftikaBold;
+    src: url(/assets/fonts/FontsFree-Net-AftikaBold.ttf);
+  }
+  body{
+    margin: 0;
+    padding: 45px;
+    padding-bottom: 20px;
+    font-family: AftikaBold;
+    color: white;
+  
+  }
+  main{
+    background-color: rgba(17,17,17,255);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+  }
+  header{
+    width: 100%;
+    height: 200px;
+    display: flex;  
+  
+  }
+  header nav{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 30%;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    left: 28px;
+  }
+  header ul{
+    display: flex;
+    list-style: none;
+  }
+  header li{
+    padding-right: 110px;
+  }
+  header ul li:hover{
+    color: #67293c;
+  
+  }
+  .luffy img{
+    max-width: 100%;
+    max-height: 560px;
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+  }
+  .logo img{
+    position: relative;
+    left: 430px;
+    bottom: 12px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  article{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+  }
+  .conteudo {
+    width: 50%;
+    text-align : left;
+    padding-left: 100px;
+  }
+  .conteudo h1{
+    margin: 0;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: go3v2;
+  }
+  .conteudo h3{
+    color: #757575;
+    margin-bottom: 0;
+  
+  }
+  .conteudo p{
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 350px;
+    margin-top: 5px;
+    
+  }
+  .conteudo button{
+  box-shadow: 0px 0px 5px 0px #38adf8;
+  background-color:#38adf8;
+  border-radius:18px;
+  border:1px solid #38adf8;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding:16px 31px;
+  margin-top: 15px;
+  }
+  .conteudo button:hover {
+  background-color: #38adf8;
+  }
+  .conteudo button:active {
+  position:relative;
+  top:1px;
+  }
+  
+  section ul{
+    width: 50%;
+    list-style: none;
+    justify-content: end;
+    text-transform: uppercase;
+  }
+  section ul li{
+    padding-bottom: 40px;
+  }
+  
+  
+  /*SLIDER PERSONAGENS*/
+  
+  .container {
+    position: relative;
+    padding: 15px;
+    max-width: 440px;
+    margin: 0 auto;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 30px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 350ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.2;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1.0;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  
+  .item {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+  
+  }
+  
+  .current-item {
+    opacity: 1;
+  
+  }
+  
+  /* This is from w3schools */
+  /* 
+  https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .gallery-wrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
